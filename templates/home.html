@@ -1,9 +1,8 @@
 <!doctype html>
-
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='stylesheets/parallax.css') }}">
 <html>
-	<title>Jonathan Brelje</title>
-	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='stylesheets/parallax.css') }}">
-
+<title>Jonathan Brelje</title>
+<body>
 	<div class=intro-img>
 		<div class=intro-text>
 			<h1>Jonathan Brelje</h2>
@@ -22,5 +21,6 @@
 	<div class=parallax></div>
 
 	{% include 'skills.html' %}
+</body>
 </html>
 
