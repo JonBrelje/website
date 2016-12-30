@@ -1,15 +1,6 @@
 .intro-img {
     /* The image used */
     background-image: url("/static/images/lake_serene.jpg");
-
-    /* Set a specific height */
-    height: 1000px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallax { 
