@@ -2,6 +2,10 @@ body {
     font-family: "Avenir Next" !important;
 }
 
+body {
+    font-family: "Avenir Next" !important;
+}
+
 .intro-img {
     /* The image used */
     position: absolute;
@@ -33,4 +37,18 @@ body {
     padding: 10px;
     border: 10px;
     
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("/static/images/lake_serene.jpg");
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
