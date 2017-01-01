@@ -4,24 +4,33 @@ body {
 
 .intro-img {
     /* The image used */
-    background-image: url("/static/images/lake_serene.jpg");
+    position: absolute;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+
+    background-image: url("/Users/JonBrelje/OneDrive/Dev/website/static/images/lake_serene.jpg");
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
 }
 
 .intro-text {
-    text-align: center;
-    vertical-align: middle;
-}
+    display: table-cell;
+    position: relative;
+    
 
-.parallax { 
-    /* The image used */
-    background-image: url("/static/images/lake_serene.jpg");
+    display: inline-block;
 
-    /* Set a specific height */
-    height: 1000px; 
+    color: white;
+    background-color: #262C28;
+    border-color: #FFFFFF;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 10px;
+    border: 10px;
+    
 }
