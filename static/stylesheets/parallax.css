@@ -8,10 +8,8 @@ body {
 
 .intro-img {
     /* The image used */
-    position: absolute;
-    display: table;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
 
     background-image: url("/static/images/lake_serene.jpg");
     /* Set rules to fill background */
@@ -24,10 +22,7 @@ body {
 }
 
 .intro-text {
-    display: table-cell;
-    position: relative;
-    
-
+    align-self: center;
     display: inline-block;
 
     color: white;
