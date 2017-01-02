@@ -45,3 +45,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.info-section {
+    position: relative;
+}
