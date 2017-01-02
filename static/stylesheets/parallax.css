@@ -2,17 +2,16 @@ body {
     font-family: "Avenir Next" !important;
 }
 
-body {
-    font-family: "Avenir Next" !important;
-}
-
 .intro-img {
     /* The image used */
     display: flex;
+    align-items: center;
     justify-content: center;
 
     background-image: url("/static/images/lake_serene.jpg");
+    
     /* Set rules to fill background */
+    position: absolute;
     min-height: 100%;
     min-width: 1024px;
     
@@ -22,15 +21,14 @@ body {
 }
 
 .intro-text {
-    align-self: center;
-    display: inline-block;
-
+    position: relative;
     color: white;
-    background-color: #262C28;
-    border-color: #FFFFFF;
 
+    background-color: #262C28;
     padding: 10px;
-    border: 10px;
+
+    border: solid #FFFFFF;
+    border-width: 10 10px;
     
 }
 
