@@ -5,6 +5,7 @@ body {
 .intro-img {
     /* The image used */
     display: flex;
+    clear: both;
     align-items: center;
     justify-content: center;
 
