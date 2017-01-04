@@ -40,17 +40,17 @@ body {
 }
 
 .info-institution {
-    display: block;
-    padding-top: 8px;
-    margin-bottom: 10px;
+
 }
 
 .info-date {
 
 }
 
-.info-title {
-
+.info-body-title {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
 }
 
 .info-body {
