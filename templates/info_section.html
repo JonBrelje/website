@@ -1,8 +1,12 @@
 <div class=info-wrapper>
- 	<h3 style="text-align:center;">{% block title %}{% endblock %}</h3>
- 	<div class="content content1">{% block image %} {% endblock %}</div>
+ 	{% block title %}{% endblock %}
+ 	<div class="content content1">
+ 		<p>{% block institution %}{% endblock %}</p>
+ 		<p>{% block date%}{% endblock %}</p>
+ 		{% block image %} {% endblock %}
+ 	</div>
  	<div class="content content2">
-  	{% block body %}
-  	{% endblock %}
+  		{% block body %}
+  		{% endblock %}
 	</div>
 </div>
