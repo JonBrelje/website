@@ -36,8 +36,25 @@ body {
     padding: 10px;
 
     border: solid #FFFFFF;
-    border-width: 10 10px;
-    
+    border-width: 10 10px;   
+}
+
+.info-institution {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+.info-date {
+
+}
+
+.info-title {
+
+}
+
+.info-body {
+
 }
 
 .parallax { 
