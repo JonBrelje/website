@@ -57,9 +57,9 @@ body {
 
 .container {
     max-width: 1280px;
+
     padding: 40px 180px;
+    margin: 15px;
+
     background-color: #D1D8D9;
-
 }
-
-
