@@ -39,24 +39,6 @@ body {
     border-width: 10 10px;   
 }
 
-.info-institution {
-
-}
-
-.info-date {
-
-}
-
-.info-body-title {
-    display: block;
-    padding-top: 8px;
-    margin-bottom: 10px;
-}
-
-.info-body {
-
-}
-
 .parallax { 
     /* The image used */
     background-image: url("/static/images/lake_serene.jpg");
@@ -78,35 +60,4 @@ body {
 
 }
 
-.img-circle {
-    border-radius: 50%;
 
-    max-height: 100px;
-    max-width: 100px;
-    margin: 10px;
-    
-}
-
-.info-img {
-    background-color: white;
-    max-height: 30;
-    max-width: 30;
-}
-
-.content{
-    float:left;
-    height:100px;
-}
-
-.content1{
-    width:auto;
-}
-
-.content2{
-    width:auto;
-}
-
-.info-section {
-    position: relative;
-    clear: both;
-}
