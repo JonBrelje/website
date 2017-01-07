@@ -1,5 +1,7 @@
 body {
     font-family: "Avenir Next" !important;
+    background-color: #414A42;
+    color: #D1D8D9;
 }
 
 .shadow {
@@ -30,12 +32,12 @@ body {
 
 .intro-text {
     position: relative;
-    color: white;
+    color: #D1D8D9;
 
-    background-color: #262C28;
+    background-color: ##414A42;
     padding: 10px;
 
-    border: solid #FFFFFF;
+    border: solid #D1D8D9;
     border-width: 10 10px;   
 }
 
@@ -56,7 +58,7 @@ body {
 .container {
     max-width: 1280px;
     padding: 40px 180px;
-    background-color:grey;
+    background-color:##D1D8D9;
 
 }
 
