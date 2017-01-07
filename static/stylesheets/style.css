@@ -34,7 +34,7 @@ body {
     position: relative;
     color: #D1D8D9;
 
-    background-color: ##414A42;
+    background-color: #262C28;
     padding: 10px;
 
     border: solid #D1D8D9;
@@ -58,7 +58,7 @@ body {
 .container {
     max-width: 1280px;
     padding: 40px 180px;
-    background-color:##D1D8D9;
+    background-color: #D1D8D9;
 
 }
 
