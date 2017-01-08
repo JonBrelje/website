@@ -36,11 +36,17 @@
 }
 
 .info-card.mdl-card {
-  width: 320px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
 }
 .info-card > .mdl-card__title {
-  color: #fff;
-  background:
-    url('/static/images/michigan_logo_100_100.png') top right 0% no-repeat #46B6AC;
+  height: 100px;
+}
+
+.info-card > .dark_logo {
+	color: #fff
+}
+
+.info-card > .light_logo {
+	color: #000;
 }
