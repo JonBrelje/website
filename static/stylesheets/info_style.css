@@ -42,5 +42,5 @@
 .info-card > .mdl-card__title {
   color: #fff;
   background:
-    url('/static/images/michigan_logo_100_100.png') bottom right 15% no-repeat #46B6AC;
+    url('/static/images/michigan_logo_100_100.png') top right 0% no-repeat #46B6AC;
 }
