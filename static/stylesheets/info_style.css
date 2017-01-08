@@ -34,3 +34,13 @@
     max-width: 100px;
     margin: 10px;
 }
+
+.info-card.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.info-card > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/static/images/michigan_logo_100_100.png') bottom right 15% no-repeat #46B6AC;
+}
