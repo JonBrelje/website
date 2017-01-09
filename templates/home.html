@@ -22,7 +22,7 @@
 	</div>
 	<div class="mdl-layout mdl-js-layout">
 	  <header class="mdl-layout__header mdl-layout__header--scroll">
-	    <div class="mdl-layout__header-row">
+	    <div class="nav-bar mdl-layout__header-row">
 	      <!-- Title -->
 	      <span class="mdl-layout-title">Title</span>
 	      <!-- Add spacer, to align navigation to the right -->
@@ -46,19 +46,19 @@
 	    </nav>
 	  </div>
 	  <main class="mdl-layout__content">
-	    <div class="page-content"><!-- Your content goes here --></div>
+	    <div class="page-content">
+    		{% include 'education/education.html' %}
+
+			{% include 'work_experience/work_experience.html' %}
+
+			{% include 'projects/projects.html' %}
+
+			<div class="container shadow">
+				<h1>Skills</h1>
+				{% include 'skills.html' %}
+			</div>
+	    </div>
 	  </main>
-	</div>
-
-	{% include 'education/education.html' %}
-
-	{% include 'work_experience/work_experience.html' %}
-
-	{% include 'projects/projects.html' %}
-
-	<div class="container shadow">
-		<h1>Skills</h1>
-		{% include 'skills.html' %}
 	</div>
 </body>
 </html>

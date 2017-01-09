@@ -4,8 +4,13 @@ body {
     color: #262C28 !important;
 }
 
-.shadow {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+.container {
+    max-width: 1280px;
+
+    padding: 40px 180px;
+    margin: 15px;
+
+    background-color: #D1D8D9;
 }
 
 .intro-img {
@@ -35,11 +40,15 @@ body {
     position: relative;
     color: #D1D8D9;
 
-    background-color: #262C28;
+    background-color: #004D40;
     padding: 10px;
 
     border: solid #D1D8D9;
     border-width: 10 10px;   
+}
+
+.nav-bar {
+    background-color: #004D40;
 }
 
 .parallax { 
@@ -56,11 +65,7 @@ body {
     background-size: cover;
 }
 
-.container {
-    max-width: 1280px;
-
-    padding: 40px 180px;
-    margin: 15px;
-
-    background-color: #D1D8D9;
+.shadow {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
