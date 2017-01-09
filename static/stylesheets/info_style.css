@@ -4,19 +4,21 @@
 }
 
 .info-section > h1 {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 
 .info-img {
+    /*
     background-color: white;
     max-height: 30;
     max-width: 30;
+    */
 }
 
 .info-section {
-    position: relative;
-    clear: both;
+    /*position: relative;
+    clear: both;*/
 }
 
 .info-institution {
@@ -24,13 +26,15 @@
 }
 
 .info-date {
-
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .info-body-title {
-    display: block;
+    /*display: block;
     padding-top: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
 .info-body {
@@ -38,11 +42,11 @@
 }
 
 .img-circle {
-    border-radius: 50%;
+    /*border-radius: 50%;
 
     max-height: 100px;
     max-width: 100px;
-    margin: 10px;
+    margin: 10px;*/
 }
 
 .info-card.mdl-card {
