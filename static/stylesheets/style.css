@@ -47,6 +47,17 @@ body {
     border-width: 10 10px;   
 }
 
+.header-image-row {
+    min-height: 500px;
+}
+
+.site-header .mdl-layout__header-row {
+    padding: 0;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .nav-bar {
     background-color: #004D40;
 }
