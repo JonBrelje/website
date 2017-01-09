@@ -1,28 +1,22 @@
-.info-section {
-    max-width: 900px;
-    margin: auto;
+.info-body {
+
 }
 
-.info-section > h1 {
-	/*color: #fff;*/
+.info-card.mdl-card {
+  width: 350px;
+  height: 350px;
 }
 
-
-.info-img {
-    /*
-    background-color: white;
-    max-height: 30;
-    max-width: 30;
-    */
+.info-card > .mdl-card__title {
+  height: 100px;
 }
 
-.info-section {
-    /*position: relative;
-    clear: both;*/
+.info-card > .dark-logo {
+    color: #fff
 }
 
-.info-institution {
-
+.info-card > .light-logo {
+    color: #000;
 }
 
 .info-date {
@@ -31,36 +25,15 @@
     left: 0px;
 }
 
-.info-body-title {
-    /*display: block;
-    padding-top: 8px;
-    margin-bottom: 10px;*/
-}
-
-.info-body {
+.info-institution {
 
 }
 
-.img-circle {
-    /*border-radius: 50%;
-
-    max-height: 100px;
-    max-width: 100px;
-    margin: 10px;*/
+.info-section {
+    max-width: 900px;
+    margin: auto;
 }
 
-.info-card.mdl-card {
-  width: 350px;
-  height: 350px;
-}
-.info-card > .mdl-card__title {
-  height: 100px;
-}
-
-.info-card > .dark-logo {
-	color: #fff
-}
-
-.info-card > .light-logo {
-	color: #000;
+.info-section > h1 {
+    color: #000;
 }
