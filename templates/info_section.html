@@ -3,14 +3,12 @@
 		<h2 class="mdl-card__title-text">{% block institution %}{% endblock %}</h2>
 	</div>
 	<div class="mdl-card__supporting-text mdl-card--border">
-		<div>
 			{% block body_title %}{% endblock %}
-		</div>
-		<div>
-			{% block date%}{% endblock %}
-		</div>
 	</div>
 	<div class="mdl-card__supporting-text">
 		{% block body %}{% endblock %}
+	</div>
+	<div class="mdl-card__supporting-text">
+		{% block date %}{% endblock %}
 	</div>
 </div>
