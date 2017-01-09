@@ -1,6 +1,6 @@
 $(document).ready(function() {
   
-  $(window).scroll(function () {
+  $('.mdl_layout').scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
       //nav bar to stick.  
