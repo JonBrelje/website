@@ -1,3 +1,13 @@
+.info-section {
+    max-width: 900px;
+    margin: auto;
+}
+
+.info-section > h1 {
+	color: #fff;
+}
+
+
 .info-img {
     background-color: white;
     max-height: 30;
@@ -43,10 +53,10 @@
   height: 100px;
 }
 
-.info-card > .dark_logo {
+.info-card > .dark-logo {
 	color: #fff
 }
 
-.info-card > .light_logo {
+.info-card > .light-logo {
 	color: #000;
 }
