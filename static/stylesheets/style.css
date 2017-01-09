@@ -62,6 +62,13 @@ body {
     background-color: #004D40;
 }
 
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
 .parallax { 
     /* The image used */
     background-image: url("/static/images/lake_serene.jpg");
