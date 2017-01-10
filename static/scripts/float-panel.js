@@ -8,7 +8,8 @@ $(document).ready(function(){
 	
 	$('.mdl-layout').scroll(function(parent, dup){
 		console.log($('.mdl-layout').scrollTop());
-		console.log(nav_top);
+		console.log(parent);
+		console.log(dup);
 
 	    if ($('.mdl-layout').scrollTop() > 500) {
 	      if($('#float-bar').length == 0) {
