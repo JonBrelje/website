@@ -1,11 +1,13 @@
-jQuery(document).ready(function(){
+$(document).ready(function(){
 
-	jQuery('.mdl-layout').scroll(function(){
+	$('.mdl-layout').scroll(function(){
 		console.log($('.mdl-layout').scrollTop())
-	    if ($('.mdl-layout').scrollTop() > 280) {
+		var bottom = $('#nav-bar').getBoundingClientRect().bottom;
+
+	    if ($('.mdl-layout').scrollTop() > bottom) {
 	      $('#nav-bar').addClass('navbar-fixed');
 	    }
-	    if ($('.mdl-layout').scrollTop() < 281) {
+	    if ($('.mdl-layout').scrollTop() < bottom) {
 	      $('#nav-bar').removeClass('navbar-fixed');
 	    }
 	});
