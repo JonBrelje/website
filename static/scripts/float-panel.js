@@ -13,7 +13,7 @@ $(document).ready(function(){
 		dup.classList.add("mdl-shadow--4dp")
 
 	    if ($('.mdl-layout').scrollTop() > 500) {
-	      if($('#float-bar').length == 0) {
+	      if($('#float-nav').length == 0) {
 	      	parent.appendChild(dup);
 	      }
 	    }
