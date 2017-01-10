@@ -5,10 +5,10 @@ $(document).ready(function(){
 		console.log($('.mdl-layout').scrollTop());
 		console.log(nav_top);
 
-	    if ($('.mdl-layout').scrollTop() > nav_top) {
+	    if ($('.mdl-layout').scrollTop() > 500) {
 	      $('#nav-bar').addClass('navbar-fixed');
 	    }
-	    if ($('.mdl-layout').scrollTop() < nav_top) {
+	    if ($('.mdl-layout').scrollTop() < 500) {
 	      $('#nav-bar').removeClass('navbar-fixed');
 	    }
 	});
