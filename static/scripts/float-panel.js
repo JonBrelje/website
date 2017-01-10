@@ -1,15 +1,25 @@
 $(document).ready(function(){
 
-	var nav_top = console.log($('#nav-bar').scrollTop())
-	$('.mdl-layout').scroll(function(nav_top){
+	var nav = document.getElementById("nav-bar");
+	var parent = nav.parentElement;
+	var dup = nav.cloneNode(true);
+	dup.id = "float-nav";
+	dup.classList.add("navbar-fixed")
+	
+	$('.mdl-layout').scroll(function(parent, dup){
 		console.log($('.mdl-layout').scrollTop());
 		console.log(nav_top);
 
 	    if ($('.mdl-layout').scrollTop() > 500) {
-	      $('#nav-bar').addClass('navbar-fixed');
+	      if($('#float-bar').length == 0) {
+	      	parent.appendChild(dup);
+	      }
 	    }
 	    if ($('.mdl-layout').scrollTop() < 500) {
-	      $('#nav-bar').removeClass('navbar-fixed');
+	      var elt = $('#float-bar');
+	      if(elt.length == 1) {
+	      	elt.remove();
+	      }
 	    }
 	});
 });
