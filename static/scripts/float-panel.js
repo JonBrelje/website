@@ -1,12 +1,11 @@
 jQuery(document).ready(function(){
 
-	jQuery('.mdl-layout__content').scroll(function(){
-		console.log('scrolled');
-		console.log($(window).scrollTop())
-	    if ($(window).scrollTop() > 280) {
+	jQuery('.mdl-layout').scroll(function(){
+		console.log($('.mdl-layout').scrollTop())
+	    if ($('.mdl-layout').scrollTop() > 280) {
 	      $('#nav-bar').addClass('navbar-fixed');
 	    }
-	    if ($(window).scrollTop() < 281) {
+	    if ($('.mdl-layout').scrollTop() < 281) {
 	      $('#nav-bar').removeClass('navbar-fixed');
 	    }
 	});
