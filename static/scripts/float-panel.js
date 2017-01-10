@@ -10,6 +10,7 @@ $(document).ready(function(){
 		var dup = nav.cloneNode(true);
 		dup.id = "float-nav";
 		dup.classList.add("navbar-fixed")
+		dup.classList.add("mdl-shadow--4dp")
 
 	    if ($('.mdl-layout').scrollTop() > 500) {
 	      if($('#float-bar').length == 0) {
