@@ -33,10 +33,10 @@
 		    </div>
 		    <div id="nav-bar" class="nav-bar mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
 		        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-		            <a class="mdl-navigation__link is-active" href="index.html">Education</a>
-		            <a class="mdl-navigation__link" href="blog.html">Work Experience</a>
-		            <a class="mdl-navigation__link" href="about.html">Projects</a>
-		            <a class="mdl-navigation__link" href="contact.html">Skills</a>
+		            <a class="mdl-layout__tab" href="#scroll-tab-1">Education</a>
+		            <a class="mdl-layout__tab" href="#scroll-tab-2">Work Experience</a>
+		            <a class="mdl-layout__tab" href="#scroll-tab-3">Projects</a>
+		            <a class="mdl-layout__tab" href="#scroll-tab-4">Skills</a>
 		        </nav>
 		    </div>
 		</header>
@@ -49,7 +49,7 @@
 
 				{% include 'projects/projects.html' %}
 
-				<div class="container shadow">
+				<div id="scrool-tab-4" class="container shadow">
 					<h1>Skills</h1>
 					{% include 'skills.html' %}
 				</div>
