@@ -87,3 +87,20 @@ body {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.skill-text{
+    display: inline-block;
+    width: 60%;
+}
+
+.star-rating {
+    float: right;
+}
+
+.hollow-star {
+
+}
+
+.solid-star {
+
+}
+
