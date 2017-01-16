@@ -3,15 +3,22 @@
 $(document).ready(function(){
   $('#show-email').click(function() {
     $.ajax({
-      url: '/_email_form',
+      url: '/__get_email_form',
       success: function (data) {
          showDialog({
             title: 'Send me a message',
             html: data,
-            negative: {
-              title: 'Nope'
+            positive: {
+              title: 'Send'
             },
-          }); 
+          });
+
+         $('#send-button').click(function (e) {
+                e.preventDefault();
+                var dialog = $('#modal-dialog');
+                $.post('/_send_email', $('#email-form').serialize())
+                hideDialog(dialog)
+            });
         },
       });     
   });
