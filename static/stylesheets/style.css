@@ -108,3 +108,8 @@ body {
     background: url('/static/images/linkedin-box.png') no-repeat center;
 }
 
+.email-form-title {
+    color: #fff;
+    background: #3F51B5;
+}
+
