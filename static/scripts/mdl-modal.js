@@ -3,7 +3,7 @@
 $(document).ready(function(){
   $('#show-email').click(function() {
     $.ajax({
-      url: '/__get_email_form',
+      url: '/_get_email_form',
       success: function (data) {
          showDialog({
             title: 'Send me a message',
