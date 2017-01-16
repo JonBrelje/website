@@ -15,6 +15,7 @@ $(document).ready(function(){
 
          $('#send-button').click(function (e) {
                 e.preventDefault();
+                var form = $('#email-form').serialize();
                 var dialog = $('#modal-dialog');
                 $.post('/_send_email', $('#email-form').serialize())
                 hideDialog(dialog)

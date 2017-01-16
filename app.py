@@ -16,9 +16,10 @@ def get_email_form():
 @app.route('/_send_email', methods=['POST'])
 def send_email():
 	sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
-	
+	print("here")
+
 	for key in request.form:
-		print key +': '+request.form[key]
+		print key, ":", request.form[key]
 
 	# Construct email
 	from_email = Email(request.form['email-address'])
