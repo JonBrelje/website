@@ -16,10 +16,6 @@ def get_email_form():
 @app.route('/_send_email', methods=['POST'])
 def send_email():
 	sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
-	print("here")
-
-	for key in request.form:
-		print key, ":", request.form[key]
 
 	# Construct email
 	from_email = Email(request.form['email-address'])
@@ -32,9 +28,8 @@ def send_email():
 	#Send email
 	mail = Mail(from_email, subject, to_email, content)
 	response = sg.client.mail.send.post(request_body=mail.get())
-	print(response.status_code)
-	print(response.body)
-	print(response.headers)
+	
+	return json.dumps({'success':True}), 200, {'ContentType':'application/json'} 
 
 if __name__ == '__main__':
     app.run()
