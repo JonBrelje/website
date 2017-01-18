@@ -20,15 +20,19 @@
 <body>
 	<div class="mdl-layout mdl-js-layout">
 		<header class="site-header mdl-layout__header mdl-layout__header--scroll mdl-shadow--4dp">
-			<div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button mdl-layout--small-screen-only"><i class="material-icons"></i></div>
+		    <div class="nav-bar mdl-layout__header-row portfolio-navigation-row mdl-layout--small-screen-only">
+		    	<span>Jonathan Brelje</span>
+		    </div>
+		    
 		    <div id="intro-header" class="mdl-layout__header-row header-image-row intro-img mdl-layout--large-screen-only">
 		        <span class="mdl-layout__title intro-text">
 					<h1>Jonathan Brelje</h2>
 					<h2>Software Developer</h2>
 		        </span>
 		    </div>
-		    <div id="nav-bar" class="nav-bar mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-		        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+		   
+		    <div id="nav-bar" class="nav-bar mdl-layout__header-row portfolio-navigation-row">
+		        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font mdl-layout--large-screen-only">
 		            <a class="mdl-layout__tab" href="#scroll-tab-1">Education</a>
 		            <a class="mdl-layout__tab" href="#scroll-tab-2">Work Experience</a>
 		            <a class="mdl-layout__tab" href="#scroll-tab-3">Projects</a>
@@ -36,6 +40,15 @@
 		        </nav>
 		    </div>
 		</header>
+
+		<div class="mdl-layout__drawer mdl-layout--small-screen-only" aria-hidden="true">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+               	<a class="mdl-navigation__link" href="#scroll-tab-1">Education</a>
+	            <a class="mdl-navigation__link" href="#scroll-tab-2">Work Experience</a>
+				<a class="mdl-navigation__link" href="#scroll-tab-3">Projects</a>
+				<a class="mdl-navigation__link" href="#scroll-tab-4">Skills</a>
+            </nav>
+        </div>
 
 		<main class="mdl-layout__content">
 			<div class="page-content">
