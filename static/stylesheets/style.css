@@ -113,3 +113,7 @@ body {
     background: #3F51B5;
 }
 
+.mdl-layout__drawer-button {
+    background-color: #004D40 !important;
+}
+

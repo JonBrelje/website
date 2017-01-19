@@ -18,7 +18,7 @@
 <html>
 <title>Jonathan Brelje</title>
 <body>
-	<div class="mdl-layout mdl-js-layout">
+	<div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
 		<header class="site-header mdl-layout__header mdl-layout__header--scroll mdl-shadow--4dp">
 		    <div class="nav-bar mdl-layout__header-row portfolio-navigation-row mdl-layout--small-screen-only">
 		    	<span>Jonathan Brelje</span>
@@ -31,8 +31,8 @@
 		        </span>
 		    </div>
 		   
-		    <div id="nav-bar" class="nav-bar mdl-layout__header-row portfolio-navigation-row">
-		        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font mdl-layout--large-screen-only">
+		    <div id="nav-bar" class="nav-bar mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+		        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
 		            <a class="mdl-layout__tab" href="#scroll-tab-1">Education</a>
 		            <a class="mdl-layout__tab" href="#scroll-tab-2">Work Experience</a>
 		            <a class="mdl-layout__tab" href="#scroll-tab-3">Projects</a>
@@ -48,6 +48,10 @@
 				<a class="mdl-navigation__link" href="#scroll-tab-3">Projects</a>
 				<a class="mdl-navigation__link" href="#scroll-tab-4">Skills</a>
             </nav>
+            <div class="mdl-logo">Contact Me</div>
+			<button id="show-email" href="#" class="mdl-mini-footer__social-btn icon icon-email"></button>
+    		<button href="#" onclick="window.open('https://www.linkedin.com/in/jonathanbrelje')" class="mdl-mini-footer__social-btn icon icon-linkedin"></button>
+    		<button href="#" onclick="window.open('https://github.com/JonBrelje')" class="mdl-mini-footer__social-btn icon icon-github"></button>
         </div>
 
 		<main class="mdl-layout__content">
@@ -61,7 +65,8 @@
 				{% include 'skills/skills.html' %}
 			</div>
 		</main>
-		<footer class="mdl-mini-footer">
+		
+		<footer class="mdl-mini-footer mdl-layout--large-screen-only">
 			<div class="mdl-mini-footer__left-section">
 				<div class="mdl-logo">
 					Download my resume 
