@@ -96,16 +96,28 @@ body {
     margin-right: 8px;
 }
 
-.icon-email {
-    background: url('/static/images/email-outline.png') no-repeat center;
+.icon-email-white {
+    background: url('/static/images/email-outline_FFFFFF.png') no-repeat center;
 }
 
-.icon-github {
-    background: url('/static/images/github-box.png') no-repeat center;
+.icon-github-white {
+    background: url('/static/images/github-box_FFFFFF.png') no-repeat center;
 }
 
-.icon-linkedin {
-    background: url('/static/images/linkedin-box.png') no-repeat center;
+.icon-linkedin-white {
+    background: url('/static/images/linkedin-box_FFFFFF.png') no-repeat center;
+}
+
+.icon-email-gray {
+    background: url('/static/images/email-outline_757575.png') no-repeat center;
+}
+
+.icon-github-gray {
+    background: url('/static/images/github-box_757575.png') no-repeat center;
+}
+
+.icon-linkedin-gray {
+    background: url('/static/images/linkedin-box_757575.png') no-repeat center;
 }
 
 .email-form-title {
@@ -117,3 +129,9 @@ body {
     background-color: #004D40 !important;
 }
 
+.drawer-contact-div {
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+}
