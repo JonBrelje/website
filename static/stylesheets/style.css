@@ -58,6 +58,10 @@ body {
     justify-content: center;
 }
 
+.mdl-layout__content {
+    padding: 5px;
+}
+
 .nav-bar {
     background-color: #004D40;
 }
