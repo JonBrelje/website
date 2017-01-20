@@ -1,7 +1,30 @@
 /*Adapted from github oRRs/mdl-jquery-modal-dialog*/
 
 $(document).ready(function(){
-  $('#show-email').click(function() {
+  $('#show-email-footer').click(function() {
+    $.ajax({
+      url: '/_get_email_form',
+      success: function (data) {
+         showDialog({
+            title: 'Send me a message',
+            html: data,
+            positive: {
+              title: 'Send'
+            },
+          });
+
+         $('#send-button').click(function (e) {
+                e.preventDefault();
+                var form = $('#email-form').serialize();
+                var dialog = $('#modal-dialog');
+                $.post('/_send_email', $('#email-form').serialize())
+                hideDialog(dialog)
+            });
+        },
+      });     
+  });
+
+  $('#show-email-drawer').click(function() {
     $.ajax({
       url: '/_get_email_form',
       success: function (data) {
