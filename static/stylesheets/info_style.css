@@ -11,6 +11,10 @@
   height: 100px;
 }
 
+.info-card > .mdl-card__title > .mdl-card__title-text {
+  max-width: 75%;
+}
+
 .info-card > .dark-logo {
     color: #fff
 }
