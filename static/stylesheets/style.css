@@ -62,6 +62,10 @@ body {
     padding: 5px;
 }
 
+.mdl-mini-footer {
+    background-color: #004D40;
+}
+
 .nav-bar {
     background-color: #004D40;
 }
@@ -71,10 +75,6 @@ body {
     top: 0;
     z-index: 100;
     width: 100%;
-}
-
-.footer {
-    background-color: #004D40;
 }
 
 .parallax { 
